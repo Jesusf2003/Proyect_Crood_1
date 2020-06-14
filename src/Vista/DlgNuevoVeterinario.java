@@ -197,7 +197,7 @@ public class DlgNuevoVeterinario extends javax.swing.JDialog {
         if(esCorrecto){
             JOptionPane.showMessageDialog(null, "Se agregó el veterinario correctamente", "Mensaje del Sitema", JOptionPane.INFORMATION_MESSAGE);
         } else{
-            JOptionPane.showMessageDialog(null, "No see agregó el veterinario correctamente", "Mensaje del Sitema", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "No se agregó el veterinario correctamente", "Mensaje del Sitema", JOptionPane.ERROR_MESSAGE);
         }
         this.setVisible(false);
         this.dispose();
